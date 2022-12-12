@@ -1,0 +1,1 @@
+{"name":"Local: binary_search_float","url":"/home/lov3camille/basic_algorithms/binary_search_float.cpp","tests":[{"id":1667832369051,"input":"77","output":"1.414"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/lov3camille/basic_algorithms/binary_search_float.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: high_precision_div","url":"/home/lov3camille/basic_algorithms/high_precision_div.cpp","tests":[{"id":1670140510476,"input":"11\n2","output":"5\n1"},{"id":1670140706927,"input":"100000\n9","output":"11111\n1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/lov3camille/basic_algorithms/high_precision_div.cpp","group":"local","local":true}

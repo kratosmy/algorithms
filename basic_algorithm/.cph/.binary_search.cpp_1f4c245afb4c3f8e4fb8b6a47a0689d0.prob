@@ -1,0 +1,1 @@
+{"name":"Local: binary_search","url":"/home/lov3camille/basic_algorithms/binary_search.cpp","tests":[{"id":1667808672150,"input":"6 3\n1 2 2 3 3 4\n3\n4\n5","output":"3 4\n5 5\n-1 -1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/lov3camille/basic_algorithms/binary_search.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: prefix_sum","url":"/home/lov3camille/basic_algorithms/prefix_sum.cpp","tests":[{"id":1670245135510,"input":"5 3\n2 1 3 6 4\n1 2\n1 3\n2 4","output":"3\n6\n10"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/lov3camille/basic_algorithms/prefix_sum.cpp","group":"local","local":true}

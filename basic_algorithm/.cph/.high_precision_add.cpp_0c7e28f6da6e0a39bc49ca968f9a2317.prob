@@ -1,0 +1,1 @@
+{"name":"Local: high_precision_add","url":"/home/lov3camille/basic_algorithms/high_precision_add.cpp","tests":[{"id":1668264867928,"input":"11\n22","output":"33"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/lov3camille/basic_algorithms/high_precision_add.cpp","group":"local","local":true}
