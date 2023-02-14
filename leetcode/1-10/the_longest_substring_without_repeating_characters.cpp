@@ -3,6 +3,10 @@
 
 using namespace std;
 
+/* 
+    利用双指针，用hashmap存储当前字符出现的次数，如果有重复，则左指针右移，直到没有重复。
+    然后利用右指针遍历整个字符串，找出最长无重复子串。
+*/
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
@@ -15,4 +19,4 @@ public:
         }
         return res;
     }
-};
+};  

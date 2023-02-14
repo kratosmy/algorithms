@@ -11,6 +11,9 @@ struct ListNode {
     ListNode(int x, ListNode *next) : val(x), next(next) {}
 };
 
+/*
+    注意不用每次都用l1的值加上l2的值一起计算，可以分开判断并分开相加。
+*/
 class Solution {
 public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
