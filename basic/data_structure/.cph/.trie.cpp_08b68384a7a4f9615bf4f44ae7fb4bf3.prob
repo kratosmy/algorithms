@@ -1,0 +1,1 @@
+{"name":"Local: trie","url":"/home/lov3camille/CLionProjects/algorithms/basic/data_structure/trie.cpp","tests":[{"id":1682000359468,"input":"7\nI abc\nQ abc\nI abc\nQ abc\nQ ab\nI ab\nQ ab","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/lov3camille/CLionProjects/algorithms/basic/data_structure/trie.cpp","group":"local","local":true}
