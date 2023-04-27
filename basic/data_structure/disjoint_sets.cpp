@@ -7,6 +7,7 @@ const int N = 100010;
 int n, m;
 int p[N];
 
+// 只有当某个节点再次被Merge的时候，它才会意识到自己的父节点变了，于是加以更新，达到路径压缩的效果
 int find(int x) {
     if (p[x] != x) p[x] = find(p[x]);
     return p[x];
@@ -15,7 +16,7 @@ int find(int x) {
 int main() {
     cin >> n >> m;
 
-    for (int i = 0; i < n; i ++) p[i] = i;
+    for (int i = 1; i <= n; i ++) p[i] = i;
 
     char op;
     int a, b;
