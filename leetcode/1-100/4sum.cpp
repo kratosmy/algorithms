@@ -16,8 +16,8 @@ public:
                 if (j > i + 1 && nums[j] == nums[j - 1]) continue;
                 for (int k = j + 1, u = l - 1; k < u; k++) {
                     if (k > j + 1 && nums[k] == nums[k - 1]) continue;
-                    while (u - 1 > k && nums[i] + nums[j] + nums[k] + nums[u - 1] >= target) u--;
-                    if (nums[i] + nums[j] + nums[k] + nums[u] == target) {
+                    while (u - 1 > k && (long) nums[i] + nums[j] + nums[k] + nums[u - 1] >= target) u--;
+                    if ((long) nums[i] + nums[j] + nums[k] + nums[u] == target) {
                         res.push_back({nums[i], nums[j], nums[k], nums[u]});
                     }
                 }
