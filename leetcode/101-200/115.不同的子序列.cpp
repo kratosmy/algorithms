@@ -1,4 +1,5 @@
-#include <bits/stdc++.h>
+#include <string>
+#include <vector>
 
 using namespace std;
 
@@ -7,7 +8,7 @@ public:
     int numDistinct(string s, string t) {
     	int n = s.size(), m = t.size();
     	s = ' ' + s, t = ' ' + t;
-    	vector<vector<long long>> f(n + 1, vector<long long>(m + 1));
+    	vector<vector<unsigned long long>> f(n + 1, vector<unsigned long long>(m + 1));
     	for (int i = 0; i <= n; i ++) f[i][0] = 1;
 
     	for (int i = 1; i <= n; i ++) {
