@@ -1,20 +1,25 @@
-#include <cmath>
+#include <bits/stdc++.h>
 
 using namespace std;
 
 class Solution {
 public:
-    bool dfs(int x, int ref, int l) {
-        if (x == ref) return true; 
-        for (int i = 1; i <= l; i ++) {
-            dfs(x - ref / (pow(10, i)), ref % (int)(pow(10, i)), l);
+    bool dfs(string s, int sum, int x, int i) {
+        if (sum == x && i == s.size()) return true;
+        for (int j = i; j < s.size(); j ++) {
+            int cur = stoi(s.substr(i, j - i + 1));
+            sum += cur;
+            if (sum > x) break;
+            if (dfs(s, sum, x, j + 1)) return true;
+            sum -= cur;
         }
         return false;
     }
 
     bool judge(int x) {
-        int ref = x * x;
-        return dfs(x, ref, floor(log10(ref)) + 1);
+        if (x * x == x) return true;
+        string s = to_string(x * x);
+        return dfs(s, 0, x, 0);
     }
 
     int punishmentNumber(int n) {
