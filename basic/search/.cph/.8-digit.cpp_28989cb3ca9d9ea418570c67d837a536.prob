@@ -1,0 +1,1 @@
+{"name":"Local: 8-digit","url":"/home/lov3camille/CLionProjects/algorithms/basic/search/8-digit.cpp","tests":[{"id":1688566045959,"input":"2 3 4 1 5 x 7 6 8","output":"19"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/lov3camille/CLionProjects/algorithms/basic/search/8-digit.cpp","group":"local","local":true}
